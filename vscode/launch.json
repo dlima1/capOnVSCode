@@ -1,0 +1,27 @@
+{
+    "name": "Run bookshop-1",
+    "request": "launch",
+    "type": "node",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npx",
+    "runtimeArgs":[
+        "-n"
+    ],
+    "args":[
+        "--",
+        "cds",
+        "run",
+        "--port",
+        "4003",
+        "--in-memory?"
+    ],
+    "console": "internalConsole",
+    "intrnalConsoleOptions": "openOnSessionStart",
+    "skipFiles": [
+        "<node_internals>/**"
+    ],
+    "envFile": "${workspaceFolder}/.env1",
+    //"env":{
+        //"run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/bookshop\\\",\"
+    //}
+}
