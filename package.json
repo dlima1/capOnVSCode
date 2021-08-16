@@ -13,6 +13,9 @@
         "hdb": "^0.18.3",
         "passport": "^0.4.1"
     },
+    "engines": {
+        "node": ">=14"
+    },
     "devDependencies": {
         "@sap/ux-specification": "^1.90.6",
         "sqlite3": "^5.0.2"
