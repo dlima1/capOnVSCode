@@ -44,5 +44,13 @@
   },
   "sapux": [
     "app/risks"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql",
+        "model": "*"
+      }
+    }
+  }
 }
