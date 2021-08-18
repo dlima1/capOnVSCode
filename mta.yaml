@@ -119,6 +119,13 @@ resources:
             ProxyType: Internet
             Type: HTTP
             URL: https://ui5.sap.com
+          - Authentication: NoAuthentication
+            Name: myapp-app-api
+            ProxyType: Internet
+            HTML5.FowardAuthToken: true
+            HTML5.DynamicDestination: true
+            Type: HTTP
+            URL: 'https://${appname}.${default-domain}'  
           existing_destinations_policy: update
       version: 1.0.0
     service: destination
