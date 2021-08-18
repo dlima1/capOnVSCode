@@ -156,6 +156,7 @@ resources:
 parameters:
   deploy_mode: html5-repo
   enable-parallel-deployments: true
+  appname: myapp-e0d6d494trial
 build-parameters:
   before-all:
   - builder: custom
